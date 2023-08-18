@@ -29,7 +29,7 @@ moveRightButton.addEventListener('click', () => {
   updatePositions(); // 刷新X坐标
 });
 
-// 移动-键盘
+// 移动-发射-键盘
 document.addEventListener('keydown', function (event) {
   if (event.key === 'a') {
     gunX = Math.max(gunX - 5, 0); // 防止超出范围
