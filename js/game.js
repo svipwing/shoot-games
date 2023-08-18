@@ -12,7 +12,7 @@ const targetImage = document.getElementById('target_image');
 // 彩蛋
 target.addEventListener('click', () => {
   const qqNumber = prompt('请输入QQ号:');
-  targetImage.src = 'https://q.qlogo.cn/g?b=qq&nk='+qqNumber+'&s=640';
+  targetImage.src = 'https://q.qlogo.cn/g?b=qq&nk=' + qqNumber + '&s=640';
 });
 
 let targetX = 50; // 靶子的X坐标
