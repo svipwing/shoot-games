@@ -15,9 +15,9 @@ body {
 
 .target {
   width: 130px;
-  height: auto;
+  height: 125px;
   /*20px;*/
-  background-color: yellow;
+  /* background-color: white; */
   position: absolute;
   top: 50px;
   left: 50%;
